@@ -1,0 +1,2 @@
+dims = list(map(int, input().split()))
+print('Malvika' if min(dims) % 2 == 0 else 'Akshat')

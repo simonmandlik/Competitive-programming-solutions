@@ -1,0 +1,15 @@
+from collections import Counter
+
+N = int(input())
+c_home = Counter()
+c_away = Counter()
+for n in range(N):
+	hi, ai = list(map(int, input().split()))
+	c_home.update([hi])
+	c_away.update([ai])
+
+res = 0
+for i in c_home.elements():
+	res += c_away[i]
+
+print(res)

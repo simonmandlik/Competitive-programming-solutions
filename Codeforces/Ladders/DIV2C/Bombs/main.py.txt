@@ -1,0 +1,27 @@
+def pick(x, y):
+  if x != 0:
+    print("1 {k} {DIR}".format(k=abs(x), DIR="L" if x < 0 else "R"))
+  if y != 0:
+    print("1 {k} {DIR}".format(k=abs(y), DIR="D" if y < 0 else "U"))
+  print("2")
+  if x != 0:
+    print("1 {k} {DIR}".format(k=abs(x), DIR="R" if x < 0 else "L"))
+  if y != 0:
+    print("1 {k} {DIR}".format(k=abs(y), DIR="U" if y < 0 else "D"))
+  print("3")
+  
+n = int(input())
+coords = []
+a = 0
+for i in range(n):
+  x, y = map(int, input().split())
+  coords.append((x,y))
+  a += 2 + 2*(x != 0) + 2*(y != 0)
+  
+print(a)
+coords.sort(key=lambda t: t[0] ** 2 + t[1] ** 2)
+
+for x,y in coords:
+  pick(x, y)
+
+

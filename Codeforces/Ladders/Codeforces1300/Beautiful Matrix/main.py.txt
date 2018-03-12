@@ -1,0 +1,7 @@
+for i in range(5):
+	numbers = list(map(int, input().split()))
+	for j in range(5):
+		if numbers[j] == 1:
+			I, J = i, j
+
+print(abs(2-I) + abs(2-J))

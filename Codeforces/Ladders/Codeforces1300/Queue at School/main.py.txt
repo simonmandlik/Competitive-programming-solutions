@@ -1,0 +1,14 @@
+N, t = list(map(int, input().split()))
+queue = input()[::-1]
+
+for _ in range(t):
+	i = 0
+	while i < len(queue) - 1:
+		if queue[i] == 'G' and queue[i+1] == 'B':
+			queue = queue[:i] + "BG" + queue[i+2:]
+			i += 2
+		else:
+			i += 1
+# 	print(_, queue)
+print(queue[::-1])
+		

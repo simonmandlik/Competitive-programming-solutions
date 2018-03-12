@@ -1,0 +1,766 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"roads",
+				"roadsDeg"
+			],
+			[
+				"vi",
+				"visited"
+			],
+			[
+				"clas",
+				"classifier"
+			],
+			[
+				"equip",
+				"equipped"
+			],
+			[
+				"message",
+				"message"
+			],
+			[
+				"messages",
+				"messages_saver"
+			],
+			[
+				"N",
+				"noboolalpha\tios"
+			],
+			[
+				"STDOUT",
+				"STDOUT_FILENO"
+			],
+			[
+				"second",
+				"second_child_pid"
+			],
+			[
+				"power",
+				"power_recursive"
+			],
+			[
+				"push",
+				"push_back\tfunc"
+			],
+			[
+				"number",
+				"number_of_divisors_faster"
+			],
+			[
+				"eratos",
+				"erathosthenes"
+			],
+			[
+				"prime",
+				"fermat_prime_test"
+			],
+			[
+				"multiplica",
+				"multiplicative_inverse_bezout"
+			],
+			[
+				"powe",
+				"power_iterative"
+			],
+			[
+				"matrix",
+				"matrix_power_recursive"
+			],
+			[
+				"matrix_po",
+				"matrix_power_recursive"
+			],
+			[
+				"m",
+				"map\tstd::map"
+			],
+			[
+				"compe",
+				"competitive\tcompetitive"
+			],
+			[
+				"S",
+				"setf\tfunc"
+			],
+			[
+				"iostream",
+				"I-iostream\tinc"
+			],
+			[
+				"iostre",
+				"I-iostream\tinc"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/simon/Desktop/main.cpp",
+			"settings":
+			{
+				"buffer_size": 113,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/simon/Desktop/in.in",
+			"settings":
+			{
+				"buffer_size": 11,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "5 6"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 184.0,
+		"last_filter": "project",
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Close"
+			],
+			[
+				"packag",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"mater",
+				"Material Theme: Activate theme"
+			],
+			[
+				"materia",
+				"Material Theme: Activate theme"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"build",
+				"Build: New Build System"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"competi",
+				"Snippet: competitive"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Package COn",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: compe",
+				"Snippet: competitive"
+			],
+			[
+				"Snippet: com",
+				"Snippet: competitive"
+			],
+			[
+				"Snippet: ",
+				"Snippet: std::vector"
+			],
+			[
+				"snippet",
+				"Snippet: template"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"bui",
+				"Build With: C++ - Starting Kit"
+			],
+			[
+				"buil",
+				"Build With: c++"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 497.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/simon/Desktop/out.out",
+		"/home/simon/Desktop/in.in",
+		"/home/simon/Desktop/main8.cpp",
+		"/home/simon/Desktop/main7.cpp",
+		"/home/simon/Desktop/main6.cpp",
+		"/home/simon/Desktop/main5.cpp",
+		"/home/simon/Desktop/main4.cpp",
+		"/home/simon/Desktop/main2.cpp",
+		"/home/simon/Desktop/main9.cpp",
+		"/home/simon/Desktop/main10.cpp",
+		"/home/simon/Desktop/main11.cpp",
+		"/home/simon/Desktop/main3.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/231C/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/231C/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/231C/in.in",
+		"/home/simon/GoogleDrive/CTU/RPZ/MLZoo/CNN_Siraj/cnn.py",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/283A/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/283A/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/225C/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/149C/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/279C/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/283A/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/18C/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/18C/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/18C/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/18C/in.i",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/225C/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/225C/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/149C/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/149C/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/279C/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/279C/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/427C/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/427C/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/427C/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/GargariAndBishops/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/GargariAndBishops/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/GargariAndBishops/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/FixingTypos/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/PalindromeTransformation/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/ValeraAndTubes/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/Team/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/TableDecorations/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/NumberOfWays/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/kTree/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/Exams/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/Boredom/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/BeautifulSetsOfPoints/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/FixingTypos/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/FixingTypos/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/PalindromeTransformation/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/PalindromeTransformation/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/*.cpp",
+		"/home/simon/Desktop/Codejam/C.in",
+		"/home/simon/Desktop/Codejam/B.in",
+		"/home/simon/Desktop/Codejam/A.in",
+		"/home/simon/Desktop/Codejam/C.cpp",
+		"/home/simon/Desktop/Codejam/B.cpp",
+		"/home/simon/Desktop/Codejam/A.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/ValeraAndTubes/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/ValeraAndTubes/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/kTree/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/kTree/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/TEMPLATES/Templates/strings/kmp.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/TEMPLATES/Templates/strings/kmp.pp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/BeautifulSetsOfPoints/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/BeautifulSetsOfPoints/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Uva/350/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Uva/11549/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/TableDecorations/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/TableDecorations/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/Table Decorations/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/Table Decorations/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/Boredom/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/Boredom/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/Exams/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/Exams/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/Team/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/Team/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/NumberOfWays/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/NumberOfWays/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/Number Of Ways/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Ladders/DIV2C/Number Of Ways/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Educational19/main.cpp",
+		"/home/simon/Desktop/codejam/main.cpp",
+		"/home/simon/Desktop/codejam/in.in",
+		"/home/simon/Desktop/codejam/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Spoj/STRCOUNT/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/Spoj/STRCOUNT/in.in",
+		"/home/simon/Desktop/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/TEMPLATES/Templates/geometry/convex_hull.cpp",
+		"/home/simon/Desktop/in2.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Educational19/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Codeforces/Educational19/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Uva/350/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/Uva/350/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Uva/11549/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/Uva/11549/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/TEMPLATES/Templates/number_theory/powers.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/TEMPLATES/Templates/number_theory/power.cpp",
+		"/home/simon/GoogleDrive/CTU/ZUI/MOOC/Assignment5/driver.py",
+		"/home/simon/GoogleDrive/CTU/ZUI/MOOC/Assignment5/gedi",
+		"/home/simon/GoogleDrive/CTU/ZUI/MOOC/Assignment5/bigram.output.txt",
+		"/home/simon/GoogleDrive/CTU/ACM/TEMPLATES/Templates/geometry/polygon_area.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/LiveArchive/3337/main.cpp",
+		"/home/simon/GoogleDrive/CTU/ACM/LiveArchive/3344/main.cpp",
+		"/home/simon/Desktop/2831/main.cpp",
+		"/home/simon/Desktop/2831/in.in",
+		"/home/simon/Desktop/2831/out.out",
+		"/home/simon/Desktop/2824/in.in",
+		"/home/simon/Desktop/2824/out.out",
+		"/home/simon/Desktop/2824/main.cpp",
+		"/home/simon/GoogleDrive/CTU/RPZ/Siraj/Q_learning/q_learning_demo/Learner.py",
+		"/home/simon/GoogleDrive/CTU/ACM/LiveArchive/3344/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/LiveArchive/3344/in.in",
+		"/home/simon/GoogleDrive/CTU/ACM/LiveArchive/3337/out.out",
+		"/home/simon/GoogleDrive/CTU/ACM/LiveArchive/3337/in.in",
+		"/home/simon/Desktop/deadline24/in.in",
+		"/home/simon/Desktop/peg_solitaire.cpp",
+		"/home/simon/Desktop/deadline24/main.cpp",
+		"/home/simon/in.in",
+		"/home/simon/main.cpp",
+		"/home/simon/main1.cpp",
+		"/home/simon/out.out",
+		"/home/simon/GoogleDrive/CTU/RPZ/Siraj/composer/composer.py",
+		"/home/simon/GoogleDrive/CTU/RPZ/Siraj/iris_leaves/iris_leaves.py",
+		"/home/simon/GoogleDrive/CTU/RPZ/Siraj/sentiment_analysis/sentiment_analysis.py",
+		"/home/simon/GoogleDrive/CTU/ACM/LiveArchive/3534/out.out"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"stan",
+			"rank",
+			"visited",
+			"0.00",
+			"r",
+			"rank",
+			"long long",
+			"22 22",
+			"left",
+			"a",
+			"string",
+			"dam",
+			"counts",
+			"pointInPolygon",
+			"Scenario",
+			"next 5",
+			"hair",
+			"vv(long long)",
+			"vv(ll)",
+			"longg",
+			"lon",
+			"ll",
+			"-1",
+			"colors",
+			"[i][j]",
+			"b",
+			"jnz",
+			"0",
+			"10",
+			";\n",
+			"sqrt(N)",
+			"find",
+			"swap",
+			"rands",
+			"error",
+			"//usleep(100)",
+			"sleep(1)",
+			"get_message",
+			"user_len",
+			"get_message",
+			"get_messsage",
+			"get_message",
+			"code",
+			"listener",
+			"buf",
+			"msg",
+			"sizeof",
+			"lr",
+			"ll",
+			"c",
+			"y",
+			"e",
+			"'",
+			"quitproc",
+			"wait",
+			"child_pid",
+			"vv(ll)",
+			"temp",
+			"count",
+			"prime",
+			"LLD",
+			"pre_compute",
+			"used",
+			"index",
+			"last_digit",
+			"period",
+			"n",
+			"int",
+			"gcd",
+			"vvll",
+			"long long",
+			"root",
+			"rank",
+			"prizes",
+			"s.length()",
+			";\n",
+			"    \t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ollie",
+			"ranks",
+			"dist",
+			"parent",
+			"ranks",
+			"ll",
+			"players",
+			"S",
+			"a",
+			"cn_PnPoly",
+			"hare",
+			"vector< vector<long long> >",
+			"long",
+			"long lon",
+			"true",
+			"color_count",
+			"[j][i]",
+			"int(sqrt(N))",
+			"count",
+			"usleep(100)",
+			"//sleep(1)",
+			"ret_code",
+			"server_fd",
+			"ly",
+			"lx",
+			"r_",
+			"x",
+			"\"",
+			"first_child_pid",
+			"vvl ",
+			"res",
+			"freq",
+			"ll",
+			"pc",
+			"u",
+			"k",
+			"l_d",
+			"p",
+			"ll",
+			"vv(ll)",
+			"ll",
+			"parent",
+			"r",
+			"prices",
+			"N"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/simon/Desktop/main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++11/C++11.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/home/simon/Desktop/in.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"auto_name": "5 6",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.55390647354,
+			0.723589121964,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 203.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/competitive.sublime-build",
+	"project": "div2c.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"cod",
+				"~/Desktop/Codejam/codejam.sublime-project"
+			],
+			[
+				"wor",
+				"~/GoogleDrive/CTU/ACM/Workspaces/workspace.sublime-project"
+			],
+			[
+				"neu",
+				"~/GoogleDrive/CTU/RPZ/Siraj/neural_network/neural_network.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

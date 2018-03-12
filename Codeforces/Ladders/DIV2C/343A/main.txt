@@ -1,0 +1,12 @@
+def gcd(a, b, count):
+  if b == 0:
+    return count
+  else:
+    return gcd(b, a%b, count+(a//b))
+
+a, b = list(map(int, input().split()))
+
+res = a // b
+a = a % b
+
+print(res + gcd(a, b, 0))

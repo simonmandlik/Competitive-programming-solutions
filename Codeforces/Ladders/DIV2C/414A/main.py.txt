@@ -1,0 +1,25 @@
+n, k = list(map(int, input().split()))
+if k < n // 2:
+  print(-1)
+elif n == 1:
+  print(1 if k == 0 else -1)
+else:
+  x = k - ((n-2) // 2)
+  res = [x, 2*x]
+  
+  c = 1
+  for i in range((n-2)//2):
+    while c == x or x == 2*x or c+1 == x or c+1 == 2*x:
+      c += 2
+    res += [c, c+1]
+    c += 2
+  
+  else:
+    if (n % 2 == 1):
+      while c == x or c == 2*x:
+        c += 1
+      res.append(c)
+      
+  print(*res)
+
+ 

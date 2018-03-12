@@ -1,0 +1,17 @@
+N = int(input())
+events = []
+for i in range(N):
+  ai, bi = list(map(int, input().split()))
+  events.append((ai, bi))
+  
+events.sort()
+
+r = -1
+c = 0
+for event in events:
+  if event[1] <= r:
+    c += 1
+  else:
+    r = max(r, event[1])
+
+print(c)

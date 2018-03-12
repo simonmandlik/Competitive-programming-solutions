@@ -1,0 +1,27 @@
+n = int(input())
+visited = {1}
+ans = 0
+
+def dfs(i):
+  if i > n:
+    return
+  global ans
+  ans += 1
+  if 10 * i not in visited:
+    visited.add(True)
+    dfs(10*i)
+  if 10 * i + 1 not in visited:
+    visited.add(True)
+    dfs(10*i + 1)
+  
+dfs(1)
+print(ans)
+
+
+
+    
+    
+    
+
+  
+

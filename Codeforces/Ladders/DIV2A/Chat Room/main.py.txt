@@ -1,0 +1,14 @@
+s = input()
+
+target = 'hello'
+t_i = 0
+
+for i in range(len(s)):
+	if (target[t_i] == s[i]):
+		t_i += 1
+		if (t_i == len(target)):
+			print('YES')
+			break
+	
+else:
+	print('NO')

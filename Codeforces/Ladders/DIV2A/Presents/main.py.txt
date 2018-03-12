@@ -1,0 +1,9 @@
+N = int(input())
+
+presents = list(map(int, input().split()))
+results = [0 for _ in range(N)]
+
+for i in range(len(presents)):
+	results[presents[i] - 1] = i + 1
+
+print(" ".join(list(map(str, results))))

@@ -1,0 +1,9 @@
+N = int(input())
+if (N % 2 == 1):
+	print(-1)
+else:
+	solution = []
+	for i, j in zip(range(0,N,2), range(1,N,2)):
+		solution.append(j+1)
+		solution.append(i+1)
+	print(' '.join(map(str, solution)))

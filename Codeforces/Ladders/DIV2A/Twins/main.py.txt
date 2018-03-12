@@ -1,0 +1,20 @@
+N = int(input())
+coins = list(map(int, input().split()))
+coins.sort(reverse=True)
+
+prefix = [0]
+suffix = [sum(coins)]
+# jako v pythonu
+# prefix az do i = 3 nevezme prvek na tretim indexu
+# suffix az do i = 3 vezme prvek na tretim indexu
+for i in range(1, N+1):
+	prefix.append(prefix[i-1] + coins[i-1])
+	suffix.append(suffix[i-1] - coins[i-1])
+
+# print(prefix)
+# print(suffix)
+
+for i in range(1, N+1):
+	if prefix[i] > suffix[i]:
+		print(i)
+		break

@@ -1,0 +1,12 @@
+N = int(input())
+A = list(map(int, input().split()))
+
+m = -1
+s = 0
+for a in A:
+  m = m if m >= a else a
+  s += a
+
+import math
+ans = math.ceil(s / (N-1))
+print(max([ans, m]))

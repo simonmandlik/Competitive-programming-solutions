@@ -1,0 +1,34 @@
+M,S = list(map(int, input().split()))
+if M == 1 and S == 0:
+	print("0 0")
+	exit(0)
+
+# min
+if M > 1 and S == 0 or S > 9 * M:
+	print(-1, end=' ')
+else:
+	s = S
+	res = ""
+	for i in range(M-1):
+		next = min(9, s-1)
+		s -= next
+		res = str(next) + res
+	res = str(max(s, 1)) + res
+	print(res, end=' ')
+
+# max
+if M > 1 and S == 0 or S > 9 * M:
+	print(-1)
+else:
+	s = S
+	for i in range(M):
+		next = min(9, s)
+		s -= next
+		print(next, end='')
+	print()
+
+
+
+
+
+	

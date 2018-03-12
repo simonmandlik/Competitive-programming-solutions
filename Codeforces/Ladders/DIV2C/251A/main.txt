@@ -1,0 +1,22 @@
+n, d = list(map(int, input().split()))
+X = list(map(int, input().split()))
+
+res = 0
+
+for i, x in enumerate(X):
+  a = i+2
+  b = n-1
+  best = i
+  
+  while a <= b:
+    m = (a+b) // 2
+    if X[m] - x <= d:
+      best = max(i, m)
+      a = m + 1
+    else:
+      b = m - 1
+      
+  if best - i >= 2:
+    res += ((best-i) * (best - i - 1)) // 2
+
+print(res)

@@ -1,0 +1,15 @@
+n = int(input())
+
+begin = (n+1) // 2
+current = begin
+d = 0
+sign = -1
+plan = []
+while current > 0 and current <= n:
+  plan.append(str(current))
+  d += 1
+  sign *= -1
+  current += sign*d
+  
+  
+print(" ".join(plan))

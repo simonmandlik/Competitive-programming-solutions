@@ -1,0 +1,7 @@
+N = int(input())
+heights = list(map(int, input().split()))
+
+leftmost_max = heights.index(max(heights))
+rightmost_min = N - 1 - heights[::-1].index(min(heights))
+ans = leftmost_max + (N - 1 - rightmost_min) - (1 if leftmost_max > rightmost_min else 0)
+print(ans)

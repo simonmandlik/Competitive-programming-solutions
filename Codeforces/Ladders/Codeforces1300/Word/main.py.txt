@@ -1,0 +1,12 @@
+s = input()
+lower = upper = 0
+for ch in s:
+	if ch.islower():
+		lower += 1
+	else:
+		upper += 1
+
+print(s.lower() if lower >= upper else s.upper())
+
+
+
