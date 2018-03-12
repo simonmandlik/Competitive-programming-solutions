@@ -83,17 +83,12 @@ void solve(Matrix &A, Matrix &res, int k) {
 		add(1, tmp);
 		matmul(res, tmp, tmp2);
 		REP(i, A.size()) REP(j, A.size()) res[i][j] = tmp2[i][j];
-		// print_mat(res);
 		if (k % 2 == 1) {
 			REP(i, A.size()) REP(j, A.size()) tmp2[i][j] = A[i][j];
 			power(tmp2, tmp, k);
-			// print_mat(tmp);
 			add(res, tmp, res);
 		}
 	}
-	// cout << k << endl;
-	// print_mat(res);
-	// cout <<endl<<endl;
 }
 
 int main() {
@@ -103,11 +98,6 @@ int main() {
     	if (n == 0) break;
 	    Matrix A(n, vi(n)), res(n, vi(n));
 	    REP(i, n) REP(j, n) { cin >> A[i][j]; A[i][j] %= MOD; }
-	    // REP(i, 5) {
-	    // 	power(A, res, i);
-	    // 	print_mat(res);
-	    // 	cout << endl;
-	    // }
 	    solve(A, res, k);
 	    print_mat(res);
 	    cout << endl;
