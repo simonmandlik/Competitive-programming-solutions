@@ -1,0 +1,12 @@
+# Ignore everything
+*
+# But not these files...
+!.gitignore
+!Spoj/
+!Uva/
+!LiveArchive
+!Codeforces/
+!Codechef/
+!Hackerrank/
+!Hackerrearth/
+!Euler/
