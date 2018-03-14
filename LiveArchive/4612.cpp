@@ -42,13 +42,13 @@ int main() {
     			if (f >= lens[i] && f <= lens[i+1]) {
     				f = (f-lens[i])/(lens[i+1]-lens[i]);
     				if (d+1 == D) {
-    					res += complex<double>(f*scale*cos(theta), f*scale*sin(theta))*(points[i+1]-points[i]);	
+    					res += polar(f*scale, theta)*(points[i+1]-points[i]);	
     				}
     				scale *= r*(lens[i+1]-lens[i]);
     				theta += arg((points[i+1] - points[i]) / (points[n-1] - points[0]));
     				break;
     			} else {
-    				res += complex<double>(scale*cos(theta), scale*sin(theta))*(points[i+1]-points[i]);
+    				res +=  polar(scale, theta)*(points[i+1]-points[i]);
     			}
     		}
     	}
