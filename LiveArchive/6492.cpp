@@ -20,39 +20,27 @@ typedef vector<ii> vii;
 
 int main() {
     ios::sync_with_stdio(false);
-	int T, u, v, l, t, a; cin >> T;
-	string s;
-	queue<int> q;
-	int AM[26][26]; vb vis(26);
-	while (T-- > 0) {
-		t = a = 0;
-		REP(i, 26) REP(j, 26) AM[i][j] = 0;
-		fill(vis.begin(), vis.end(), false);
-		while(cin >> s && s[0] != '*') {
-			u = s[1] - 'A'; v = s[3] - 'A';
-			AM[u][v] = AM[v][u] = 1;
+	int N; string fn, ln; int res, gc; vb used(26);
+	while(cin >> N && N > 0) {
+		vvi g(18, vi());
+		REP(i, N) {
+			cin >> fn >> ln;
+			g[ln[0] - 'A'].push_back(fn[0] - 'A');
 		}
-		cin >> s;
-		for(int i = 0; i < s.length(); i += 2) {
-			u = s[i] - 'A';
-			if (!vis[u]) {
-				q.push(u);
-				vis[u] = true;
-				l = 0;
-				while(!q.empty()) {
-					v = q.front(); q.pop();
-					l++;
-					REP(i, 26) {
-						if (!vis[i] && AM[v][i] > 0) {
-							vis[i] = true;
-							q.push(i);
-						}
-					}
-				}	
-				if (l == 1) a++;
-				else t++;			
+		res = INT_MAX;
+		for(int conf = 0; conf < (1 << 18); ++conf) {
+			gc = 0;
+			REP(i, 26) used[i] = false;
+			REP(i, 18) {
+				if ((1 << i) & conf) {
+					gc++;
+				} else {
+					for(int v : g[i]) used[v] = true;
+				}
 			}
+			REP(i, 26) gc += used[i];
+			res = min(res, gc);
 		}
-		cout << "There are " << t << " tree(s) and " << a << " acorn(s)." << endl;
+		cout << res << endl;
 	}
 }
