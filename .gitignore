@@ -2,13 +2,14 @@
 !.gitignore
 !README.md
 
-!Spoj/
-!Uva/
-!LiveArchive/
-!Codeforces/
 !Codechef/
+!Codeforces/
 !Codejam/
+!Euler/
+!HackerCup/
 !Hackerrank/
 !Hackerrearth/
-!Euler/
+!LiveArchive/
+!Spoj/
 !Topcoder/
+!Uva/
